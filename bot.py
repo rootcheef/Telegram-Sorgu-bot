@@ -99,7 +99,7 @@ def get_tc_from_gsm(gsm):
 # === Operatör Bilgisi ===
 def get_operator_info(gsm):
     try:
-        url = f"https://legacyapi.xyz/chikopubapi/operator.php?gsm={gsm}"
+        url = f"GSM APİNİZİ YAZIN{gsm}"
         response = requests.get(url)
         return response.json() if "Operatör" in response.json() else None
     except Exception as e:
