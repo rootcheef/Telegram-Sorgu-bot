@@ -6,7 +6,7 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes, MessageHandler, filters
 
 # === Telegram Bot Token ===
-TOKEN = "7877410242:AAHdij6XdHdQ9l79Mv4Fmzu1mMARoq12jp8"
+TOKEN = "TOKENİNİZİ GİRİN"
 
 # === Logging Ayarları ===
 log_folder = r"C:\Users\Administrator\Desktop\BOTUM"
